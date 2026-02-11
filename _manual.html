@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>お湯っくり</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="こちらは非公式サークルお湯っくりの公式HPです。">
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div id="container">
+
+<header>
+<h1 id="logo"><a href="index.html">お湯っくり</a></h1>
+	<!--開閉メニュー-->
+	<div id="menubar">
+	<nav>
+	<ul>
+	<li><a href="company.html">お湯っくりについて</a></li>
+	<li><a href="service.html">活動報告</a></li>
+	<li><a href="staff.html">オリジナルグッズ</a></li>
+	<li><a href="recruit.html">採用情報</a></li>
+	<li class="btn"><a href="contact.html">ご予約・お問い合わせ</a></li>
+	</ul>
+	</nav>
+	</div>
+</header>
+
+<main>
+
+<section>
+
+<h2>当テンプレートの使い方</h2>
+
+<p><strong class="color-check">titleタグの設定はとても重要です。念入りにワードを選んで適切に入力しましょう。</strong><br>
+まず、htmlソースが見れる状態にして、<br>
+<span class="look">&lt;title&gt;お湯っくり&lt;/title&gt;</span><br>
+を編集しましょう。<br>
+あなたのホームページ名が「東京札幌旅館」だとすれば、<br>
+<span class="look">&lt;title&gt;東京札幌旅館&lt;/title&gt;</span><br>
+とすればＯＫです。SEO対策もするなら冒頭に重要なワードを入れておきましょう。</p>
+<p><strong class="color-check">copyrightを変更しましょう。</strong><br>
+続いてhtmlの下の方にある、<br>
+<span class="look">Copyright&copy; お湯っくり All Rights Reserved.</span><br>
+の部分もお湯っくりに変更します。</p>
+<p><strong class="color-check">metaタグを変更しましょう。</strong><br>
+htmlソースが見える状態にしてmetaタグを変更しましょう。</p>
+<p>ソースの上の方に、<br>
+<span class="look">content=&quot;非公式サークルお湯っくりの公式HPです。&quot;</span><br>
+という部分がありますので、テキストをサイトの説明文に入れ替えます。検索結果の文面に使われる場合もありますので、見た人が来訪したくなるような説明文を簡潔に書きましょう。</p>
+<p><strong class="color-check">h1ロゴのaltタグも変更しましょう。</strong><br>
+html側に、<br>
+<span class="look">alt=&quot;お湯っくり&quot;</span><br>
+となっている箇所があるので、この部分もお湯っくりに変更しましょう。</p>
+<p><strong class="color-check">ロゴ画像がない場合はテキストでもOK。</strong><br>
+当ページがテキストタイプのロゴになっています。画像がない場合は直接html側にサイト名を入力して使って下さい。</p>
+
+</section>
+
+<section>
+
+<h2>アイコン画像について（Font Awesomeの解説）</h2>
+<p>imagesフォルダに入っていない画像（アイコン）は主にFont Awesomeの素材です。（※マップ上のアイコンは、ブラウザのアイコンです）<br>
+<a href="https://fontawesome.com/" target="_blank">Font Awesome 公式サイト</a><br>
+<a href="https://fontawesome.com/v6/search" target="_blank">Font Awesome アイコン一覧</a></p>
+<p>iタグを使ってhtmlに直接アイコンを読み込む場合と、cssの擬似要素を使って読み込む場合があります。<br>
+それぞれ他のアイコンに置き換えたい場合は、当サイトの<a href="https://template-party.com/tips/tips20211126_font_awesome.html">マニュアル</a>をお読み下さい。</p>
+<p><strong class="color-check">Font Awesomeを使う為に必要なタグ、ファイル類。</strong><br>
+cssフォルダのstyle.css冒頭で読み込んでいる「Font Awesomeの読み込み」のブロック。</p>
+<p><strong class="color-check">何年も経過した場合、動作に問題が出てくる可能性があります。</strong><br>
+テンプレートを編集していないのに突然動きがおかしくなった場合は、style.cssの冒頭でCDNから読み込んでいるFont Awesome関連のファイルのバージョンを変更して動作するか確認してみて下さい。</p>
+
+</section>
+
+<section>
+
+<h2>イラスト、写真素材について</h2>
+<p>当テンプレートで使用しているイラストや写真素材は、弊社素材サイト<a href="https://haconana.com/" target="_blank">haconana</a>にて無料DLできます。<br>
+ライセンス契約により、haconanaポイント特典付与を行っている場合もあるので、ご予定の場合は<a href="https://template-party.com/member.html" target="_blank">ライセンスページ</a>をチェックして下さい。（※ポイント付与特典は予告なく終了する場合もあります）</p>
+
+</section>
+
+<section>
+
+<h2>色の管理について</h2>
+<p>cssフォルダのstyle.css冒頭にある、<br>
+<span class="look">:root {</span><br>
+というブロック内で主に色管理がされており、ここのカラーコードを変更する事でテンプレートの色調整が一括管理できます。<br>
+root内で色が変わらないブロックがある場合は、同じstyle.css内から「bg1」をテキスト検索してみて下さい。直接カラーコードの指定があると思うので、そちらを入れ替えればOKです。<br>
+いずれもコメントで解説が書かれているので読んでみて下さい。</p>
+<p>nailsalonタイプのみ、背景が特殊なグラデーションになっている為、当解説の下の方を読んで下さい。</p>
+
+</section>
+
+<section>
+
+<h2>フォントサイズについて</h2>
+<p>cssフォルダのstyle.css冒頭で、基準となるフォントサイズを「２箇所」記載しています。<br>
+全体的にフォントサイズを大きくまたは小さくしたいなら、この基準サイズだけを変更すればOKです。</p>
+<p>１つ目はstyle.cssの56行目前後に記載されている以下。<br>
+<span class="look">font-size: 13px;</span><br>
+２つ目はその数行下にある、画面幅900px以上の端末向けで、以下。<br>
+<span class="look">font-size: 15px;</span></p>
+<p>お好みで変更して下さい。</p>
+
+</section>
+
+<section>
+
+<h2>メニューについて</h2>
+<p>画面幅900px未満で開閉メニューになります。この900pxの数値を変更したい場合は、jsフォルダのmain.jsの上の方にある、<br>
+const breakPoint = 900;	// ここがブレイクポイント指定箇所です<br>
+の900の数値を変更して下さい。</p>
+<p><strong class="color-check">ボタンタイプのメニュー</strong><br>
+「お問い合わせ」だけボタン風になっていますが、これは単に、<br>
+&lt;li <span class="color-check">class=&quot;btn&quot;</span>&gt;&lt;a href=&quot;contact.html&quot;&gt;お問い合わせ&lt;/a&gt;&lt;/li&gt;<br>
+と<span class="look">class=&quot;btn&quot;</span>がついているだけです。これがなければ他のメニューと同じ見た目になります。お好みで。</p>
+
+</section>
+
+<section>
+
+<h2>ul、ol要素</h2>
+
+<ol>
+<li>これはol要素です。サンプルテキスト。</li>
+<li>これはol要素です。サンプルテキスト。</li>
+<li>これはol要素です。サンプルテキスト。</li>
+</ol>
+
+<ul>
+<li>これはul要素です。サンプルテキスト。</li>
+<li>これはul要素です。サンプルテキスト。</li>
+<li>これはul要素です。サンプルテキスト。</li>
+</ul>
+
+</section>
+
+<section>
+
+<h2>トップページのスライドショーの解説</h2>
+<p>cssフォルダのslide.cssで設定を行っています。</p>
+<p><strong class="color-check">１枚目のアスペクト比が反映されます。</strong><br>
+画像サイズはバラバラでも構いませんが、１枚目のアスペクト比が全てに反映されます。合わない画像は切り抜かれます。</p>
+<p><strong class="color-check">画像の追加方法</strong><br>
+現状、３枚構成ですが４枚目を追加したい場合、３枚目のブロックをコピペし、imgの行だけを４枚目の画像ファイル名に書き換えればOKです。</p>
+
+</section>
+
+<section>
+
+<h2>izakayaタイプのみ、ページ全体に背景画像が入っています</h2>
+<p><strong class="color-check">背景画像を入れ替える場合</strong><br>
+imagesフォルダのbg.jpgを上書きして下さい。かなり暗めにしないと、上のテキストが読みづらくなるのでご注意を。</p>
+<p><strong class="color-check">背景画像を外したい場合</strong><br>
+cssフォルダのstyle.cssを開き、<br>
+<span class="look">/*大きな端末で見た際の背景画像*/<br>
+body::before {<br>
+	content: "";<br>
+	background: url("../images/bg.jpg") no-repeat center center / cover;	/*背景画像をここで指定します*/<br>
+	position: fixed;<br>
+	width: 100%;<br>
+	height: 100%;<br>
+}<br>
+</span><br>
+のブロックを丸ごと削除して下さい。80行目あたりにあります。</p>
+
+</section>
+
+<section>
+
+<h2>nailsalonタイプのみ、ページ全体に複雑なグラデーションが入っています</h2>
+<p>このグラデーションは、海外のグラデーションの生成サイトで作ったものです。<br>
+<a href="https://csshero.org/mesher/" target="_blank">https://csshero.org/mesher/</a>（MESHER）</p>
+<p><strong class="color-check">色を変更したい場合</strong><br>
+ページの右側に色の選択肢ボックスがあり、削除したり変更、追加したりすることができます。<br>
+画面左側に出力されるグラデーションが表示されており、カーソルを上にもってくると、小さな丸い円が出て、グラデーションの場所をドラッグで移動することができます。<br>
+全てのグラデーションの基準となる背景色は、画面の右上の「Bg Color」という所です。デフォルトでは赤色になっているようです。<br>
+グラデーションが決まったら、画面右下にある「Export」ボタンを押し、別途出てきたページの右下にある「Copy to Clipboard」を押せばコピーできます。<br>
+コピー後は、テンプレートのcssフォルダのstyle.cssを開き、上の方にある、<br>
+<span class="look">body {</span><br>
+のブロック内にある、<br>
+<span class="look">background-color:</span><br>
+と、<br>
+<span class="look">background-image:</span><br>
+の設定と入れ替えて下さい。色によってはその下のcolor:も変更する必要があります。</p>
+<p><strong class="color-check">単色にしたい場合</strong><br>
+background-image:のブロックを削除し、background-color:の「hsla(228,39%,86%,1)」部分を直接カラーコード（例：「pink」や「#ae9ab6」など）と置き換えて下さい。</p>
+
+</section>
+
+<section>
+
+<h2>うまく編集できない場合は</h2>
+<p><a href="https://template-party.com/bbs/" target="_blank">サポート掲示板</a>をご活用下さい。ご利用は無料です。</p>
+
+</section>
+
+</main>
+
+<footer>
+<ul class="icons">
+<li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+<li><a href="#"><i class="fab fa-line"></i></a></li>
+<li><a href="#"><i class="fab fa-youtube"></i></a></li>
+<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+</ul>
+<small>Copyright© お湯っくり All Rights Reserved.</small>
+</footer>
+
+<!--以下の行はテンプレートの著作。削除しないで下さい。-->
+<span class="pr"><a href="https://template-party.com/" target="_blank">《Web Design:Template-Party》</a></span>
+
+</div>
+<!--/#container-->
+
+<!--ページの上部へ戻るボタン-->
+<div class="pagetop"><a href="#"><i class="fas fa-angle-double-up"></i></a></div>
+
+<!--開閉ボタン（ハンバーガーアイコン）-->
+<div id="menubar_hdr">
+<span></span><span></span><span></span>
+</div>
+
+<!--jQueryの読み込み-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!--パララックス（inview）-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/protonet-jquery.inview/1.1.2/jquery.inview.min.js"></script>
+<script src="js/jquery.inview_set.js"></script>
+
+<!--このテンプレート専用のスクリプト-->
+<script src="js/main.js"></script>
+
+</body>
+</html>
